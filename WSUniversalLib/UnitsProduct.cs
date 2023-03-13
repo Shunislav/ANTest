@@ -100,5 +100,101 @@ namespace WSUniversalLib
             Assert.AreEqual(expected, actual);
 
         }
+        [TestMethod]
+        public void Material_Type1()
+        {
+            // arrange
+            int count = 2;
+            int width = 2;
+            int lenght = 2;
+            int productType = 1;
+            int materialType = 1;
+
+            int expected = 9;
+
+            //act
+            int actual = Calc.GetQuaForProd(count, width, lenght, productType, materialType);
+
+            //assert
+            Assert.AreEqual(expected, actual);
+
+        }
+        [TestMethod]
+        public void Material_Type2()
+        {
+            // arrange
+            int count = 2;
+            int width = 2;
+            int lenght = 2;
+            int productType = 1;
+            int materialType = 2;
+
+            int expected = 9;
+
+            //act
+            int actual = Calc.GetQuaForProd(count, width, lenght, productType, materialType);
+
+            //assert
+            Assert.AreEqual(expected, actual);
+
+        }
+        [TestMethod]
+        public void Product_Type1()
+        {
+            // arrange
+            int count = 2;
+            int width = 2;
+            int lenght = 2;
+            int productType = 1;
+            int materialType = 1;
+
+            int expected = 9;
+
+            //act
+            int actual = Calc.GetQuaForProd(count, width, lenght, productType, materialType);
+
+            //assert
+            Assert.AreEqual(expected, actual);
+
+        }
+        [TestMethod]
+        public void Product_Type2()
+        {
+            // arrange
+            int count = 2;
+            int width = 2;
+            int lenght = 2;
+            int productType = 2;
+            int materialType = 1;
+
+            int expected = 21;
+
+            //act
+            int actual = Calc.GetQuaForProd(count, width, lenght, productType, materialType);
+
+            //assert
+            Assert.AreEqual(expected, actual);
+
+        }
+        [TestMethod]
+        public void Product_Type3()
+        {
+            // arrange
+            int count = 2;
+            int width = 2;
+            int lenght = 2;
+            int productType = 3;
+            int materialType = 1;
+
+            int expected = 68;
+
+            //act
+            int actual = Calc.GetQuaForProd(count, width, lenght, productType, materialType);
+
+            //assert
+            Assert.AreEqual(expected, actual);
+
+        }
+
     }
 }

@@ -100,3 +100,7 @@ C:\Users\Shunya\source\repos\ANTest\ANTest\bin\Debug\net6.0\zh-Hant\Microsoft.Vi
 C:\Users\Shunya\source\repos\ANTest\ANTest\bin\Debug\net6.0\WSUniversalLib.dll
 C:\Users\Shunya\source\repos\ANTest\ANTest\bin\Debug\net6.0\WSUniversalLib.pdb
 C:\Users\Shunya\source\repos\ANTest\ANTest\obj\Debug\net6.0\ANTest.csproj.CopyComplete
+C:\Users\Shunya\source\repos\ANTest\ANTest\bin\Debug\net6.0\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+C:\Users\Shunya\source\repos\ANTest\ANTest\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Shunya\source\repos\ANTest\ANTest\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Shunya\source\repos\ANTest\ANTest\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll

@@ -8,10 +8,14 @@ namespace WSUniversalLib
 {
     public class Calc
     {
-        public static int GetQuaForProd(int count, int widht, int lenght, int product_mat, int material_prod)
+        public static int GetQuaForProd(int count, int widht, int lenght, 
+            int product_mat, int material_prod)
         {
 
-            if (count < 1 || widht < 1 || lenght < 1 || product_mat < 1 || material_prod < 1 || product_mat > 3 || material_prod > 2)
+            if (count < 1 || widht < 1 || lenght < 1 
+                || product_mat < 1 ||
+                material_prod < 1 || product_mat > 3
+                || material_prod > 2)
             {
                 return -1;
             }
